@@ -58,7 +58,7 @@ make A=apps/monolithic_userboot ARCH=riscv64 run
 make A=apps/monolithic_userboot ARCH=riscv64 FEATURES=img run
 
 # 使用批处理模式启动宏内核并且运行给定测例
-make A=apps/monolithic_userboot ARCH=riscv64 APP_FEATURES=batch run
+make A=apps/monolithic_userboot ARCH=riscv64 APP_FEATURES=batch run LOG=debug
 
 ```
 

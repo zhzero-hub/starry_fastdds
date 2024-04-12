@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <sys/socket.h>
 
 int main() {
     pid_t pid = fork(); // 创建新进程

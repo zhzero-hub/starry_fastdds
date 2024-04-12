@@ -1,0 +1,8 @@
+13:58:31 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+13:58:31 futex(0x7fffbe73c904, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+13:58:35 futex(0x7fffbe96314c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:35 futex(0x7fffbe965f5c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:35 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1 RT_2], [], 8) = 0
+13:58:35 futex(0x7fffbe73cb28, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:35 exit(0)                        = ?
+13:58:35 +++ exited with 0 +++

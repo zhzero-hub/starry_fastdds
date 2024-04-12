@@ -1,0 +1,10 @@
+13:58:31 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+13:58:31 recvfrom(7, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\16\1\f\0\1\17\177\1/\0O\343"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 128
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=160778900}) = 0
+13:58:32 recvfrom(7, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\16\1\f\0\1\17\177\1/\0O\343"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 188
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=280870400}) = 0
+13:58:32 recvfrom(7, "", 65500, 0, 0x7fffbe8875d8, [28 => 0]) = 0
+13:58:35 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1 RT_2], [], 8) = 0
+13:58:35 futex(0x7fffbe887b28, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:35 exit(0)                        = ?
+13:58:35 +++ exited with 0 +++

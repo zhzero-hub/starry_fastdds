@@ -1,0 +1,130 @@
+13:58:30 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+13:58:30 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=434885400}) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=402530100}) = 0
+13:58:31 futex(0x7fffbe920994, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 futex(0x7fffbe96306c, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 futex(0x7fffbe96306c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 futex(0x6a8058, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=452933400}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=456614500}) = 0
+13:58:31 setsockopt(8, SOL_SOCKET, SO_SNDTIMEO_OLD, "\0\0\0\0\0\0\0\0\236Q\327\35\24\0\0\0", 16) = -1 EDOM (Numerical argument out of domain)
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=518918200}) = 0
+13:58:31 sendto(8, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 460, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(7412), sin_addr=inet_addr("127.0.0.1")}, 16) = 460
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=481822300}) = 0
+13:58:31 setsockopt(8, SOL_SOCKET, SO_SNDTIMEO_OLD, "\0\0\0\0\0\0\0\0'\357\326\35\24\0\0\0", 16) = -1 EDOM (Numerical argument out of domain)
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=540044600}) = 0
+13:58:31 sendto(8, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 460, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(7400), sin_addr=inet_addr("239.255.0.1")}, 16) = 460
+13:58:31 futex(0x7fffbe7421dc, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=514665900}) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=525605000}) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = 0
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fffbe6c1000
+13:58:31 futex(0x6a8058, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=586547900}) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=595391000}) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=607992900}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=614655200}) = 0
+13:58:31 setsockopt(8, SOL_SOCKET, SO_SNDTIMEO_OLD, "\0\0\0\0\0\0\0\0\371E\327\35\24\0\0\0", 16) = -1 EDOM (Numerical argument out of domain)
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=677364100}) = 0
+13:58:31 sendto(8, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\16\1\f\0\1\17\177\0010\0\317\31"..., 128, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(7412), sin_addr=inet_addr("127.0.0.1")}, 16) = 128
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=638784200}) = 0
+13:58:31 futex(0x7fffbe920994, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 futex(0x7fffbe96306c, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=655218100}) = 0
+13:58:31 futex(0x7fffbe96306c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483651, NULL) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = 0
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=711580300}) = 0
+13:58:31 futex(0x6a8058, FUTEX_WAIT_PRIVATE, 2147483650, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=721148600}) = 0
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=736306600}) = 0
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=754241000}) = 0
+13:58:31 setsockopt(8, SOL_SOCKET, SO_SNDTIMEO_OLD, "\0\0\0\0\0\0\0\0\361\31\327\35\24\0\0\0", 16) = -1 EDOM (Numerical argument out of domain)
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=815894300}) = 0
+13:58:31 sendto(8, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\16\1\f\0\1\17\177\0010\0\317\31"..., 128, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(7412), sin_addr=inet_addr("127.0.0.1")}, 16) = 128
+13:58:31 futex(0x7fffbe710a2c, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=782769400}) = 0
+13:58:31 futex(0x7fffbe920994, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=795269300}) = 0
+13:58:31 futex(0x7fffbe96466c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=818989400}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=827257200}) = 0
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=866904600}) = 0
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=883064300}) = 0
+13:58:31 setsockopt(8, SOL_SOCKET, SO_SNDTIMEO_OLD, "\0\0\0\0\0\0\0\0\340 \327\35\24\0\0\0", 16) = -1 EDOM (Numerical argument out of domain)
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=943766000}) = 0
+13:58:31 sendto(8, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\16\1\f\0\1\17\177\0010\0\317\31"..., 128, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(7412), sin_addr=inet_addr("127.0.0.1")}, 16) = 128
+13:58:31 futex(0x7fffbe9648d4, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=901581300}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=904832600}) = 0
+13:58:31 futex(0x7fffbe9632b4, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=971431300}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=922379800}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=926189300}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=935118100}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=999645300}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=950678300}) = 0
+13:58:32 futex(0x7fffbe9632b4, FUTEX_WAIT_PRIVATE, 2147483703, NULL) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=966004100}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=25396400}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=976004700}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=979159800}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=986535300}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=47701500}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=997652400}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=1108200}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=6512500}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=15082300}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=75983100}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=25266500}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=27193400}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=32431000}) = 0
+13:58:32 futex(0x7fffbe9632b4, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=101316500}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=52339300}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=54778400}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=67215600}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\10\370\23fv\347\344\212"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 148
+13:58:32 recvfrom(5, "", 65500, 0, 0x7fffbe8ed5d8, [28 => 0]) = 0
+13:58:34 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1 RT_2], [], 8) = 0
+13:58:34 futex(0x7fffbe8edb28, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:34 exit(0)                        = ?
+13:58:34 +++ exited with 0 +++

@@ -1,0 +1,16 @@
+13:58:31 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+13:58:31 futex(0x7fffba49d904, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+13:58:32 futex(0x7fffba6c414c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:32 futex(0x7fffba6c6f8c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=273752900}) = 0
+13:58:32 futex(0x7fffba6c58d4, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=289993600}) = 0
+13:58:32 setsockopt(8, SOL_SOCKET, SO_SNDTIMEO_OLD, "\0\0\0\0\0\0\0\0I4\305\35\24\0\0\0", 16) = -1 EDOM (Numerical argument out of domain)
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=346751700}) = 0
+13:58:32 sendto(8, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\16\1\f\0\1\17\177\1/\0O\343"..., 484, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(7410), sin_addr=inet_addr("127.0.0.1")}, 16) = 484
+13:58:32 futex(0x7fffba6c58d4, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 futex(0x7fffba49d904, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+13:58:32 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1 RT_2], [], 8) = 0
+13:58:32 futex(0x7fffba49db28, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 exit(0)                        = ?
+13:58:32 +++ exited with 0 +++

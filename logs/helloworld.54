@@ -1,0 +1,53 @@
+13:58:31 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=551707400}) = 0
+13:58:31 futex(0x7fffba62c694, FUTEX_WAIT_PRIVATE, 2147483696, NULL) = 0
+13:58:31 futex(0x7fffba62c694, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=765173800}) = 0
+13:58:31 futex(0x7fffba4ac4fc, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=780026700}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=847329400}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=799455300}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=804510100}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=867962700}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=823131600}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=831569600}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=846912500}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=912371100}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=863026200}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=866591500}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=874109800}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=933889900}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=882746100}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=886459200}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=948163300}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=897241700}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=899134200}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=921990900}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:31 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584711, tv_nsec=985835300}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=934798300}) = 0
+13:58:31 clock_gettime(CLOCK_MONOTONIC, {tv_sec=8, tv_nsec=939169600}) = 0
+13:58:31 recvfrom(5, "RTPS\2\2\1\17\1\17\177\1/\0O\343\0\0\0\0\t\1\10\0\7\370\23f<\316#W"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(47075), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=47733600}) = 0
+13:58:32 recvfrom(5, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\t\1\10\0\7\370\23fI{\315h"..., 65500, 0, {sa_family=AF_INET, sin_port=htons(45158), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 460
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=119486600}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=68334000}) = 0
+13:58:32 futex(0x7fffba4ac4fc, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 futex(0x7fffba62c694, FUTEX_WAIT_PRIVATE, 2147483705, NULL) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=77803700}) = 0
+13:58:32 recvfrom(5, "", 65500, 0, 0x7fffba6505d8, [28 => 0]) = 0
+13:58:32 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1 RT_2], [], 8) = 0
+13:58:32 futex(0x7fffba650b28, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 exit(0)                        = ?
+13:58:32 +++ exited with 0 +++

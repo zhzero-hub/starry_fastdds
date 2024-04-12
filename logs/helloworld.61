@@ -1,0 +1,19 @@
+13:58:31 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+13:58:31 nanosleep({tv_sec=0, tv_nsec=100000000}, 0x7fffba3cfa10) = 0
+13:58:31 nanosleep({tv_sec=0, tv_nsec=100000000}, 0x7fffba3cfa10) = 0
+13:58:32 nanosleep({tv_sec=0, tv_nsec=100000000}, 0x7fffba3cfa10) = 0
+13:58:32 nanosleep({tv_sec=0, tv_nsec=100000000}, 0x7fffba3cfa10) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=254251100}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=263624100}) = 0
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=323146100}) = 0
+13:58:32 clock_gettime(CLOCK_MONOTONIC, {tv_sec=9, tv_nsec=272172900}) = 0
+13:58:32 setsockopt(8, SOL_SOCKET, SO_SNDTIMEO_OLD, "\0\0\0\0\0\0\0\0\233>\327\35\24\0\0\0", 16) = -1 EDOM (Numerical argument out of domain)
+13:58:32 clock_gettime(CLOCK_REALTIME, {tv_sec=1712584712, tv_nsec=329142300}) = 0
+13:58:32 sendto(8, "RTPS\2\2\1\17\1\17\177\0010\0\317\31\0\0\0\0\16\1\f\0\1\17\177\1/\0O\343"..., 188, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(7411), sin_addr=inet_addr("127.0.0.1")}, 16) = 188
+13:58:32 futex(0x7fffba6c58d4, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 writev(1, [{iov_base="Message: HelloWorld with index: "..., iov_len=38}, {iov_base="\n", iov_len=1}], 2) = 39
+13:58:32 nanosleep({tv_sec=0, tv_nsec=100000000}, 0x7fffba3cfa10) = 0
+13:58:32 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1 RT_2], [], 8) = 0
+13:58:32 futex(0x7fffba3cfb28, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 exit(0)                        = ?
+13:58:32 +++ exited with 0 +++

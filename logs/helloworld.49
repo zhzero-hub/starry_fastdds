@@ -1,0 +1,18 @@
+13:58:30 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+13:58:30 futex(0x7fffba6de55c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = 0
+13:58:30 futex(0x7fffba6a6914, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+13:58:30 writev(1, [{iov_base="\33[37;1m2024-04-08 13:58:30.822 \33"..., iov_len=213}, {iov_base="\n", iov_len=1}], 2) = 214
+13:58:30 futex(0x7fffeb0ff844, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:30 futex(0x7fffba6de55c, FUTEX_WAKE_PRIVATE, 1) = 0
+13:58:30 futex(0x7fffba6a6914, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+13:58:30 futex(0x7fffba6de55c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:30 writev(1, [{iov_base="\33[37;1m2024-04-08 13:58:30.843 \33"..., iov_len=203}, {iov_base="\n", iov_len=1}], 2) = 204
+13:58:30 futex(0x7fffba6a6914, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:30 futex(0x7fffba6de55c, FUTEX_WAIT_PRIVATE, 2147483664, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+13:58:30 writev(1, [{iov_base="\33[37;1m2024-04-08 13:58:30.857 \33"..., iov_len=218}, {iov_base="\n", iov_len=1}], 2) = 219
+13:58:30 futex(0x7fffba6a6914, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+13:58:32 munmap(0x7fffba6c4000, 4096)   = 0
+13:58:32 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1 RT_2], [], 8) = 0
+13:58:32 futex(0x7fffba6a6b28, FUTEX_WAKE_PRIVATE, 1) = 1
+13:58:32 exit(0)                        = ?
+13:58:32 +++ exited with 0 +++

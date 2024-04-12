@@ -4,7 +4,8 @@ use alloc::{boxed::Box, string::String, string::ToString, vec::Vec};
 
 #[allow(dead_code)]
 pub const SDCARD_TESTCASES: &[&str] = &[
-    "test",
+    "./test"
+    // "strace -f DDSHelloWorldExample subscriber -s 1",
     // "./runtest.exe -w entry-static.exe pthread_cond",
     // "busybox du",
     // "./MediaServer -h",
